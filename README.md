@@ -1,0 +1,1 @@
+{"code":{"python":{"value":"def defang_ip_address(ip: str) -> str:\r\n    return ip.replace('.', '[.]')\r\n\r\n# Example usage:\r\nip_address = \"192.168.1.1\"\r\ndefanged_ip = defang_ip_address(ip_address)\r\nprint(defanged_ip)  # Output: \"192[.]168[.]1[.]1\"\r\n"}},"language":"python"}
